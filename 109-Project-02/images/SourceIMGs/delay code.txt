@@ -1,0 +1,22 @@
+setTimeout(function(){alert("Hi World")},1000);
+
+ 
+
+
+The setTimeout will take two arguments: The code it is to run and the delay.
+
+In the above example the alert("Hi World") will trigger after 1 second. The time of 1000 is in milliseconds and is equal to 1 second.
+_________________________________
+
+Example of loading a setTimeout into a variable:
+
+var myTimeout=setTimeout(init, 2000);
+
+In the above example it will trigger a function named init() after two seconds.
+
+A setTimeout  is usually cleared by placing the clear method inside of another function and then triggering the clear by a user event or based on a condition in your program:
+
+function stopFunction()
+{
+    clearTimeout(myTimeout);
+}

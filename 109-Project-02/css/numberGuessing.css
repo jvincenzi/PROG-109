@@ -1,0 +1,342 @@
+html {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-image: url("../images/question-mark-background.jpg");
+}
+
+#start{
+	text-align:center;
+	background-color: rgba(0, 255, 0, 0.7);
+	width:700px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	margin-bottom:auto;
+}
+body > h2{
+	text-align:center;
+	color:White;
+}
+
+
+
+#page01{
+  width:1143px;
+  height:828px;
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;  
+  padding:20px 0px 10px 0px;
+  font-size: 150%;
+  text-align:center;
+  font-weight: bold;
+  box-shadow: 15px 15px 30px black;
+  background-color: White;
+  border-radius: 15px 15px 15px 15px;
+  clear: both;
+  background-color: PaleGreen;
+}
+#page01 > button{
+  width: 700px;
+  height:auto;
+  font-size: 100%;
+  margin:11px 0px 0px 0px;
+}
+
+#page02{
+  display:none;
+  width:1143px;
+  height:828px;
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;  
+  padding:20px 0px 10px 0px;
+  font-size: 150%;
+  text-align:center;
+  font-weight: bold;
+  box-shadow: 15px 15px 30px black;
+  background-color: White;
+  border-radius: 15px 15px 15px 15px;
+  clear: both;
+  background-color: PaleGreen;
+}
+#page02 > button{
+  width: 700px;
+  height:auto;
+  font-size: 100%;
+  margin:11px 0px 0px 0px;
+}
+
+#page03{
+  display:none;
+  width:1143px;
+  height:828px;
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;  
+  padding:20px 0px 10px 0px;
+  font-size: 150%;
+  text-align:center;
+  font-weight: bold;
+  box-shadow: 15px 15px 30px black;
+  background-color: White;
+  border-radius: 15px 15px 15px 15px;
+  clear: both;
+  background-color: PaleGreen;
+}
+#page03 > button{
+  width: 700px;
+  height:auto;
+  font-size: 100%;
+  margin:11px 0px 0px 0px;
+}
+#instruct{
+  padding:0px 0px 0px 7px;
+  color:red;
+}
+#remaining{
+  padding:0px 0px 0px 7px;
+}
+#pastGuesses{
+  padding:0px 0px 0px 7px;
+}
+
+#outerBox{
+  width:1143px;
+  height:800px;
+  margin-top:60px;
+  margin-left:auto;
+  margin-right:auto;  
+  padding:20px 0px 10px 0px;
+  font-size: 150%;
+  text-align:center;
+  font-weight: bold;
+  box-shadow: 15px 15px 30px black;
+  background-color: White;
+  border-radius: 15px 15px 15px 15px ;
+  clear: both;
+  background-color: PaleGreen ; 
+}
+#outerBox > img{
+  position: absolute;
+  top: 110px;
+  left: 200px;
+}
+
+#expandBox{
+  width:auto;
+  height:auto;
+  float: left;
+  position:relative;
+  margin-right:-500px;
+  z-index: 5;
+  color:white;
+}
+#expandBox > img{
+  position: absolute;
+  left: 210px;
+}
+
+#leftBox{
+  border: 1px solid black;
+  width:400px;
+  height:728px;
+  float: left;
+  margin:10px 0px 0px 13px;
+  background-color: PaleGreen ;
+}
+
+#rightBox{
+  width:700px;
+  height:422px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+  clear: right;
+  float: right;
+  background-repeat: no-repeat;
+  margin:10px 12px 0px 0px;
+  font-size: 100%;
+}
+#rightBox > img {
+  float:left;
+}
+#rightBox > #text {
+  position: relative;
+  top:100px;
+  left:-20px;
+}
+
+#lowerBox{
+  width:700px;
+  height:293px;
+  border: 1px solid black;
+  background-color:lightgrey;
+  margin-left:auto;
+  margin-right:auto;
+  clear: right;
+  float: right;
+  margin:10px 12px 0px 0px; 
+  font-size: 100%;
+}
+
+
+
+
+
+
+#expandBox2{
+  width:auto;
+  height:auto;
+  float: left;
+  position:relative;
+  margin-right:-500px;
+  z-index: 5;
+  color:white;
+}
+#expandBox2 > img{
+  position: absolute;
+  left: 210px;
+}
+
+#leftBox2{
+  border: 1px solid black;
+  width:400px;
+  height:728px;
+  float: left;
+  margin:10px 0px 0px 13px;
+  background-color: PaleGreen ;
+}
+
+#rightBox2{
+  width:700px;
+  height:422px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+  clear: right;
+  float: right;
+  background-repeat: no-repeat;
+  margin:10px 12px 0px 0px;
+  font-size: 100%;
+}
+#rightBox2 > img {
+  float:left;
+}
+#rightBox2 > #text {
+  position: relative;
+  top:100px;
+  left:-20px;
+}
+
+#lowerBox2{
+  width:700px;
+  height:293px;
+  border: 1px solid black;
+  background-color:lightgrey;
+  margin-left:auto;
+  margin-right:auto;
+  clear: right;
+  float: right;
+  margin:10px 12px 0px 0px; 
+  font-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+#expandBox3{
+  width:auto;
+  height:auto;
+  float: left;
+  position:relative;
+  margin-right:-500px;
+  z-index: 5;
+  color:black;
+}
+#expandBox3 > img{
+  position: absolute;
+  left: 210px;
+}
+#expandBox3 > button{
+  position: absolute;
+  margin:615px 0px 0px 700px;
+  width:150px;
+  height:auto;
+  font-size: 100%;
+  z-index: 4;
+}
+#expandBox3 > p{
+  position: absolute;
+  z-index: 5;
+  text-align:center;
+  margin:650px 0px 0px 540px;
+  font-size: 110%;
+  width:350px;
+  
+}
+
+#leftBox3{
+  border: 1px solid black;
+  width:400px;
+  height:728px;
+  float: left;
+  margin:10px 0px 0px 13px;
+  background-color: PaleGreen ;
+}
+
+#rightBox3{
+  width:700px;
+  height:422px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+  clear: right;
+  float: right;
+  background-repeat: no-repeat;
+  margin:10px 12px 0px 0px;
+  font-size: 100%;
+}
+#rightBox3 > img {
+  float:left;
+}
+#rightBox3 > #text {
+  position: relative;
+  top:100px;
+  left:-20px;
+}
+#numInput{
+  height:30px;
+  width:41px;
+  margin:133px 0px 0px 175px;
+  font-size: 130%;
+  font-weight:bold;
+}
+#enterButton{
+  height:52px;
+  width:70px;
+  margin:137px 0px 0px 175px;
+  font-size: 85%;
+}
+
+#lowerBox3{
+  width:700px;
+  height:293px;
+  border: 1px solid black;
+  background-color:lightgrey;
+  margin-left:auto;
+  margin-right:auto;
+  clear: right;
+  float: right;
+  margin:10px 12px 0px 0px; 
+  font-size: 70%;
+  text-align:left;
+  
+}
+
+

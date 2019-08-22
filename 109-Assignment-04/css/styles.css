@@ -1,0 +1,72 @@
+  /* Joseph Vincenzi */
+  /* Assignment 04 CSS */
+  
+  
+  body{
+    font-family:Arial,Helvetica,sans-serif;
+  }
+  body > p{
+    margin:0px 0px 0px 45px;
+  }
+  
+  h1, h2{
+    margin:0px 0px 0px 45px;
+  }
+  
+  label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+  }
+  
+  input{
+    margin:6px 10px 6px 10px;
+  }
+
+  fieldset{
+    box-shadow:3px 3px 3px lightgrey;
+    border:steelblue 2px solid;
+    background-color:ivory;
+    border-radius:4px;
+    margin:10px;
+  }
+
+  textarea{
+    margin:5px 20px 20px 10px;
+    resize:none;
+  }
+  
+  .xl_lable{
+    width: 250px;
+  }
+  .long_lable{
+    margin:10px 0px 0px 4px;
+    width: 180px;
+  }
+  .med_lable{
+    margin:1px 0px 0px 0px;
+    width: 140px;
+  }
+  .short_lable{
+    width: 75px;
+  }
+  .button_wide{
+    width:200px;
+  }
+  .reset_button{
+    width:100px;
+  }
+
+  #info_box{
+    width: 500px;
+  }
+  #shoe_design{
+    width: 780px;
+  }
+  #send_img_box{
+    width: 400px;
+  }
+  #copyright{
+    text-align:center;
+    font-size:10px;
+  }

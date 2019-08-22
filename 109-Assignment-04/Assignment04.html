@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- Joseph Vincenzi -->
+<!-- use https://validator.w3.org/ to validate HTML -->
+<!-- http://jigsaw.w3.org/css-validator/ to validate CSS -->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>This is the title</title>
+    <link href="css/styles.css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<h1>"Sneaker Feature" Contest Entry Form</h1><br />
+    <p>Want to trade in your old sneakers for a custom pair fo Forcefields?<br />
+      Make a case for why your shoes have got to go and you may be one<br />
+      of ten lucky winners.</p><br />
+		
+    <form action="http://forms.miketackett.dx.am/contest.php" enctype="multipart/form-data" method="post">
+      <fieldset id="info_box">
+        <legend>&nbsp;Contest Entry Information&nbsp;</legend>
+        <label for="username">Name:</label><input id="username" type="text" name="username" size="30" maxlength="50" placeholder="First & Last name" required autofocus><br />
+        <label for="emailaddress">Email:</label><input id="emailaddress" type="email" name="emailaddress" size="30" maxlength="50" placeholder="So we can contact winners" required><br />
+        <label for="telephone">Phone:</label><input id="telephone" type="tel" name="telephone" size="30" maxlength="50" placeholder="So we can call winners" required><br />
+        <label for="story" class="long_lable">My shoes are SO old...</label><br />
+				<textarea id="story" name="story" cols="50" placeholder="No more than 250 characters long..." rows="5" maxlength="250" required></textarea><br />
+        
+        <fieldset id="send_img_box">
+          <legend>&nbsp;Send us a photo of your old sneakers&nbsp;</legend>
+          <input type="file" id="file_button" name="photo" >
+
+        </fieldset>
+      </fieldset>
+      <br />
+      
+      <h2>Design your custome Forcefields:</h2>
+      <fieldset id="shoe_design">
+        <legend>&nbsp;Custom shoe design&nbsp;</legend>
+        <fieldset>
+          <legend>&nbsp;Color (<i>choose one</i>):&nbsp;</legend>
+            <label for="red" class="short_lable"><input id="red" type="radio" name="color" value="red" checked />Red</label>
+            <label for="blue" class="short_lable"><input id="blue" type="radio" name="color" value="blue" />Blue</label>
+            <label for="black" class="short_lable"><input id="black" type="radio" name="color" value="black" />Black</label>
+            <label for="silver" class="short_lable"><input id="silver" type="radio" name="color" value="sliver" />Silver</label>
+            <label for="pink" class="short_lable"><input id="pink" type="radio" name="color" value="pink" />Pink</label>
+        </fieldset>
+        <br />
+        
+        <fieldset>
+          <legend>&nbsp;Features (<i>choose as many as you want</i>):&nbsp;</legend>
+          <label for="laces" class="med_lable"><input type="checkbox" id="laces" name="features[ ]" value="Sparkley laces" />Sparkley laces</label>
+          <label for="met_logo" class="med_lable"><input type="checkbox" id="met_logo" name="features[ ]" value="Metallic logo" checked />Metallic logo</label>
+          <label for="light_heels" class="med_lable"><input type="checkbox" id="light_heels" name="features[ ]" value="Light-up heels" />Light-up heels</label>
+          <label for="mp3e" class="med_lable"><input type="checkbox" id="mp3e" name="features[ ]" value="MP3-enabled" />MP3-enabled</label>
+          <label for="wheels" class="med_lable"><input type="checkbox" id="wheels" name="features[ ]" value="Roller wheels" />Roller wheels</label>
+        </fieldset>
+        <br />
+        
+        <fieldset>
+          <legend>&nbsp;Size&nbsp;</legend>
+          <label class="xl_lable" for="size">Size reflect standard men's sizing:</label>
+          <select id="size" name="size">
+            <option value="5" selected>5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+          </select>
+        </fieldset>
+        
+      </fieldset>
+      <input class="button_wide" type="submit" name="Button_Submit" value="Enter me to win!" />
+      <input class="reset_button" type="reset" name="Button_Reset" value="Reset" />
+      
+    </form>
+    
+		<footer>
+			<hr />
+      <p id="copyright">&copy;2016 Joseph Vincenzi</p>
+		</footer>
+		
+	</body>
+</html>
